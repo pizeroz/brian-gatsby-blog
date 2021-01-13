@@ -1,10 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import BlogSidebar from './BlogSidebar'
-// import SEO from '../../components/Seo';
-// import Comment from '../../components/Comment';
-import Config from '../../../config';
-import Utils from '../../utils/pageUtils';
 
 // Test
 import img6 from '../../assets/images/blog/blog-img6.jpg'
@@ -21,13 +17,8 @@ import user4 from '../../assets/images/user4.jpg'
 const BlogDetailsContent = (data) => {
     const { data: { markdownRemark: { html, frontmatter } } } = data;
     const {
-        title, excerpt, path, categories, tags, author
+        title, cover: { childImageSharp: { fluid } }, excerpt, path,
     } = frontmatter;
-    const canonicalUrl = Utils.resolvePageUrl(
-        Config.siteUrl,
-        Config.pathPrefix,
-        path,
-    );
     return (
         <section className="blog-details-area ptb-100">
             <div className="container">
@@ -35,20 +26,18 @@ const BlogDetailsContent = (data) => {
                     <div className="col-lg-8 col-md-12">
                         <div className="blog-details-desc">
                             <div className="article-image">
-                                <img src={frontmatter ? frontmatter.cover.childImageSharp.fluid.src : ''} alt="bb" />
+                                <img src={img6} alt="bb" />
                             </div>
 
                             <div className="article-content">
                                 <div className="entry-meta">
                                     <ul>
-                                        <li className="custom-category-group">
+                                        <li>
                                             <i className='bx bx-folder-open'></i>
-                                            <span>Danh mục</span>
-                                            {
-                                                categories.map(( category, key ) => (
-                                                    <Link to="#">{category}</Link>
-                                                ))
-                                            }
+                                            <span>Category</span>
+                                            <Link to="#">
+                                                Fashion
+                                            </Link>
                                         </li>
                                         <li>
                                             <i className='bx bx-group'></i>
@@ -59,30 +48,75 @@ const BlogDetailsContent = (data) => {
                                         </li>
                                         <li>
                                             <i className='bx bx-calendar'></i>
-                                            <span>Cập nhật</span>
+                                            <span>Last Updated</span>
                                             <Link to="#">
-                                                {frontmatter.date}
+                                                25/04/2020
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <article className='article-content' dangerouslySetInnerHTML={{ __html: html }} />
+                                <h3>It’s Time To Think Differently About Homeschooling</h3>
+
+                                <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+                                <blockquote>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                    <cite>Tom Cruise</cite>
+                                </blockquote>
+
+                                <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>
+
+                                <ul className="wp-block-gallery columns-3">
+                                    <li className="blocks-gallery-item">
+                                        <figure>
+                                            <img src={img4} alt="bb" />
+                                        </figure>
+                                    </li>
+
+                                    <li className="blocks-gallery-item">
+                                        <figure>
+                                            <img src={img5} alt="bb" />
+                                        </figure>
+                                    </li>
+
+                                    <li className="blocks-gallery-item">
+                                        <figure>
+                                            <img src={img7} alt="bb" />
+                                        </figure>
+                                    </li>
+                                </ul>
+
+                                <h3>Four major elements that we offer:</h3>
+
+                                <ul className="features-list">
+                                    <li><i className='bx bx-badge-check'></i> Scientific skills for getting a better result</li>
+                                    <li><i className='bx bx-badge-check'></i> Communication skills to getting in touch</li>
+                                    <li><i className='bx bx-badge-check'></i> A career overview opportunity available</li>
+                                    <li><i className='bx bx-badge-check'></i> A good work environment for work</li>
+                                </ul>
+
+                                <h3>Setting the mood with incense</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+                                <h3>The rise of marketing and why you need it</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                             </div>
 
                             <div className="article-footer">
                                 <div className="article-tags">
                                     <span><i className='bx bx-purchase-tag'></i></span>
-                                    {
-                                        tags.map(( tag, key ) => (
-                                            <Link to="#">{tag}</Link>
-                                        ))
-                                    }
+
+                                    <Link to="#">Fashion</Link>
+                                    <Link to="#">Games</Link>
+                                    <Link to="#">Travel</Link>
                                 </div>
 
                                 <div className="article-share">
                                     <ul className="social">
-                                        <li><span>Chia sẻ:</span></li>
+                                        <li><span>Share:</span></li>
                                         <li>
                                             <Link to="#" className="facebook">
                                                 <i className='bx bxl-facebook'></i>
@@ -111,9 +145,9 @@ const BlogDetailsContent = (data) => {
                                 <div className="author-profile-header"></div>
                                 <div className="author-profile">
                                     <div className="author-profile-title">
-                                        <img src={frontmatter ? frontmatter.avatar.childImageSharp.fluid.src : ''} className="shadow-sm" alt="uu" />
-                                        <h4>{author}</h4>
-                                        <span className="d-block">{author}</span>
+                                        <img src={user1} className="shadow-sm" alt="uu" />
+                                        <h4>Chris Orwig</h4>
+                                        <span className="d-block">Photographer, Author, Writer</span>
                                         <p>Chris Orwig is a celebrated photographer, author, and writer who brings passion to everything he does. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.</p>
                                     </div>
                                 </div>

@@ -7,7 +7,7 @@ import icon5 from '../../assets/images/icons/icon5.png'
 import icon6 from '../../assets/images/icons/icon6.png'
 import icon7 from '../../assets/images/icons/icon7.png'
 import shape1 from '../../assets/images/shape/circle-shape1.png'
- 
+
 const AboutUsContent = () => {
     return (
         <section className="about-area ptb-100">
@@ -23,12 +23,12 @@ const AboutUsContent = () => {
                         <div className="about-content">
                             <div className="content">
                                 <span className="sub-title">
-                                    <img src={starIcon} alt="banner" /> 
+                                    <img src={starIcon} alt="banner" />
                                     About Us
                                 </span>
                                 <h2>Drive Digital Revolution Through Data Science</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                
+
                                 <ul className="features-list">
                                     <li>
                                         <img src={icon4} alt="banner" />
@@ -52,7 +52,7 @@ const AboutUsContent = () => {
                                     </li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                
+
                                 <Link to="/about-us" className="default-btn">
                                     <i className="flaticon-right"></i>More About Us<span></span>
                                 </Link>
@@ -73,7 +73,7 @@ const AboutUsContent = () => {
                             <div className="about-text">
                                 <h3>Our History</h3>
                                 <p>Real innovations and a positive customer experience are the heart of successful communication.</p>
-                                
+
                                 <ul className="features-list">
                                     <li><i className="flaticon-tick"></i> Activate Listening</li>
                                     <li><i className="flaticon-tick"></i> Brilliant minds</li>
@@ -82,12 +82,12 @@ const AboutUsContent = () => {
                                 </ul>
                             </div>
                         </div>
-    
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="about-text">
                                 <h3>Our Mission</h3>
                                 <p>Real innovations and a positive customer experience are the heart of successful communication.</p>
-                                
+
                                 <ul className="features-list">
                                     <li><i className="flaticon-tick"></i> Creating. Results.</li>
                                     <li><i className="flaticon-tick"></i> Expect more</li>
@@ -96,12 +96,12 @@ const AboutUsContent = () => {
                                 </ul>
                             </div>
                         </div>
-    
+
                         <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                             <div className="about-text">
                                 <h3>Who we are</h3>
                                 <p>Real innovations and a positive customer experience are the heart of successful communication.</p>
-                                
+
                                 <ul className="features-list">
                                     <li><i className="flaticon-tick"></i> Stay real. Always.</li>
                                     <li><i className="flaticon-tick"></i> We have you covered</li>
