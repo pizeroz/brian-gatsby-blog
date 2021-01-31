@@ -2,10 +2,10 @@ module.exports = {
   pathPrefix: '',
   siteUrl: 'https://itsite.me',
   siteTitle: 'Brian Lee',
-  siteDescription: 'Logbook of a software developer',
+  siteDescription: 'Thiết kế & phát triển website',
   author: 'Brian Lee',
   postsForArchivePage: 3,
-  defaultLanguage: 'en',
+  defaultLanguage: 'vi',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
   pages: {
     home: '/',
@@ -21,7 +21,7 @@ module.exports = {
     instagram: 'https://www.instagram.com/reevan100/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/b34d5336-41f3-4617-873a-1aa09b436166',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '1', // TODO: Add customer GA ID
   tags: {
     javascript: {

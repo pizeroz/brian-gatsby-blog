@@ -4,19 +4,22 @@ import Navbar from "../components/App/Navbar"
 import PageBanner from '../components/Common/PageBanner'
 import Footer from "../components/App/Footer"
 
-const BlogDetails = () => {
+const PageNotFound = () => {
     return (
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Blog Details"
+                pageTitle="About Us"
                 homePageText="Home"
                 homePageUrl="/"
-                activePageText="Blog Details"
+                activePageText="About Us"
             />
+            <div>
+              <h1>Page not found</h1>
+            </div>
             <Footer />
         </Layout>
-    )
+    );
 }
 
-export default BlogDetails;
+export default PageNotFound;

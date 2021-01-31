@@ -16,7 +16,7 @@ const Footer = () => {
                             <a href="/" className="logo">
                                 <img src={logo} alt="logo" />
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <p>Thiết kế website chuẩn SEO uy tín, chất lượng. Chia sẻ kiến thức phát triển & tối ưu website.</p>
 
                             <ul className="social-link">
                                 <li>
@@ -45,8 +45,8 @@ const Footer = () => {
 
                     <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget pl-5">
-                            <h3>Explore</h3>
-                            
+                            <h3>Giới thiệu</h3>
+
                             <ul className="footer-links-list">
                                 <li>
                                     <Link to="/">
@@ -55,22 +55,17 @@ const Footer = () => {
                                 </li>
                                     <li>
                                     <Link to="/about-us">
-                                        About
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/case-studies">
-                                        Case Studies
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/blog">
-                                        Our Blog
+                                        Về chúng tôi
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/contact">
-                                        Contact
+                                        Liên hệ
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/blog">
+                                        Blog
                                     </Link>
                                 </li>
                             </ul>
@@ -79,32 +74,27 @@ const Footer = () => {
 
                     <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Resources</h3>
+                            <h3>Liên kết</h3>
 
                             <ul className="footer-links-list">
                                 <li>
                                     <Link to="/team">
-                                        Our Scientists
+                                        Thiết kế web
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/services">
-                                        Our Services
+                                        Kho giao diện
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/testimonials">
-                                        Testimonials
+                                        Dịch vụ
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/services">
-                                        SaaS Solutions
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/case-studies">
-                                        Case Studies
+                                        Tối ưu website
                                     </Link>
                                 </li>
                             </ul>
@@ -113,24 +103,20 @@ const Footer = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Address</h3>
+                            <h3>Liên hệ</h3>
 
                             <ul className="footer-contact-info">
                                 <li>
-                                    <i className='bx bx-map'></i> 
-                                    175 5th Ave, New York, NY 10010, <br /> United States
+                                    <i className='bx bx-map'></i>
+                                    Toà nhà Peakview, 36 Hoàng Cầu, Đống Đa, <br /> Hà Nội
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i>
-                                    <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                                    <a href="tel:+84986801501">+84 986 801 801</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-envelope'></i>
-                                    <a href="mailto:hello@rewy.com">hello@rewy.com</a>
-                                </li>
-                                <li>
-                                    <i className='bx bxs-inbox'></i>
-                                    <a href="tel:+557854578964">+55 785 4578964</a>
+                                    <a href="mailto:hotro.itsite@gmail.com">hotro.itsite@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -140,7 +126,7 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright @{currentYear} <strong>Rewy</strong> All rights reserved <a target="_blank" href="https://envytheme.com/" rel="noreferrer">EnvyTheme</a></p>
+                            <p>Copyright @{currentYear} <strong><a target="_blank" href="https://itsite.me/" rel="noreferrer">IT Site</a></strong> All rights reserved.</p>
                         </div>
 
                         <div className="col-lg-6 col-md-6">

@@ -14,10 +14,10 @@ const RecentProjects = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="project" /> Recent Projects
+                        <img src={starIcon} alt="project" /> Dự án
                     </span>
-                    <h2>Check Some Of Our Recent Work</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Dự án nổi bật</h2>
+                    <p>Khách hàng đánh giá cao chất lượng sản phẩm và dịch vụ của IT Site.</p>
                 </div>
 
                 <div className="row">

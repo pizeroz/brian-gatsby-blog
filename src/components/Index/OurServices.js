@@ -20,11 +20,11 @@ const OurServices = () => {
                             <div className="about-content">
                                 <div className="content">
                                     <span className="sub-title">
-                                        <img src={starIcon} alt="icon" /> Services
+                                        <img src={starIcon} alt="icon" /> Dịch vụ
                                     </span>
-                                    
-                                    <h2>Cloud Hosting Services</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+                                    <h2>Giải pháp máy chủ đám mây</h2>
+                                    <p>IT Site cung cấp các giải pháp sử dụng dịch vụ & tối ưu website trên nền tảng đám mây.</p>
                                     <ul className="about-list mb-0">
                                         <li>
                                             <i className="flaticon-tick"></i>
@@ -75,11 +75,11 @@ const OurServices = () => {
                             <div className="our-mission-content">
                                 <div className="content">
                                     <span className="sub-title">
-                                        <img src={starIcon} alt="icon" /> Services
+                                        <img src={starIcon} alt="icon" /> Dịch vụ
                                     </span>
-                                    
-                                    <h2>Design & Development</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+                                    <h2>Thiết kế & phát triển</h2>
+                                    <p>Cung cấp các giải pháp thiết kế & phát triển website chuẩn SEO, phù hợp xu hướng mới nhất trên thị trường.</p>
 
                                     <ul className="our-mission-list mb-0">
                                         <li>

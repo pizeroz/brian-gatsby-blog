@@ -4,15 +4,15 @@ import starIcon from '../../assets/images/star-icon.png'
 
 const Pricing = () => {
     return (
-        <div className="membership-levels-area ptb-100">
+        <div className="membership-levels-area pb-100">
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="priceing" /> 
-                        Pricing
+                        <img src={starIcon} alt="priceing" />
+                        Bảng giá
                     </span>
-                    <h2>Pricing Plans</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Bảng giá Website</h2>
+                    <p>Lựa chọn gói thiết kế phù hợp với nhu cầu của bạn và liên hệ ngay với IT Site.</p>
                 </div>
 
                 <div className="membership-levels-table table-responsive">
@@ -20,37 +20,34 @@ const Pricing = () => {
                         <thead>
                             <tr>
                                 <th>
-                                    <span className="title">List Of Features</span>
+                                    <span className="title">Tính năng</span>
                                 </th>
                                 <th>
-                                    <span className="price">$15.00</span>
-                                    <span className="title">Basic Plan</span>
-                                    <span className="desc">/Monthly</span>
+                                    <span className="price">8.900.000đ</span>
+                                    <span className="title">Cơ bản</span>
                                 </th>
                                 <th>
-                                    <span className="price">$35.00</span>
-                                    <span className="title">Advanced Plan</span>
-                                    <span className="desc">/Monthly</span>
+                                    <span className="price">11.900.000đ</span>
+                                    <span className="title">Nâng cao</span>
                                 </th>
                                 <th>
-                                    <span className="price">$65.00</span>
-                                    <span className="title">Expert Plan</span>
-                                    <span className="desc">/Monthly</span>
+                                    <span className="price">14.900.000đ</span>
+                                    <span className="title">Chuyên nghiệp</span>
                                 </th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
-                                <td>Number of features</td>
-                                <td>6</td>
-                                <td>7</td>
-                                <td>8</td>
+                                <td>Dung lượng</td>
+                                <td>5G</td>
+                                <td>10G</td>
+                                <td>10G</td>
                             </tr>
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        5 GB Bandwidth
+                                        Giao diện tương thích với mọi thiết bị
                                     </Link>
                                 </td>
                                 <td className="item-check"><i className='bx bx-check'></i></td>
@@ -60,7 +57,7 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        Highest Speed
+                                        Cài đặt SSL bảo mật cho Website
                                     </Link>
                                 </td>
                                 <td className="item-check"><i className='bx bx-check'></i></td>
@@ -70,7 +67,7 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        1 GB Storage
+                                        Website chuẩn SEO
                                     </Link>
                                 </td>
                                 <td className="item-check"><i className='bx bx-check'></i></td>
@@ -80,7 +77,7 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        Unlimited Website
+                                        Website hỗ trợ đa ngôn ngữ
                                     </Link>
                                 </td>
                                 <td className="item-check"><i className='bx bx-check'></i></td>
@@ -90,7 +87,7 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        Unlimited Users
+                                        Băng thông không giới hạn
                                     </Link>
                                 </td>
                                 <td className="item-check"><i className='bx bx-check'></i></td>
@@ -100,7 +97,7 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        24x7 Great Support
+                                        Tối ưu tốc độ tải trang
                                     </Link>
                                 </td>
                                 <td className="item-check"><i className='bx bx-check'></i></td>
@@ -110,7 +107,47 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        Data Security and Backups
+                                        1 GB Dung lượng lưu trữ
+                                    </Link>
+                                </td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Link to="#">
+                                        Không giới hạn tên miền
+                                    </Link>
+                                </td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Link to="#">
+                                        Logo chữ đơn giản (Miễn phí)
+                                    </Link>
+                                </td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Link to="#">
+                                        Hỗ trợ 24x7
+                                    </Link>
+                                </td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Link to="#">
+                                        Bảo mật và sao lưu website
                                     </Link>
                                 </td>
                                 <td className="item-none"><i className='bx bx-x'></i></td>
@@ -120,7 +157,27 @@ const Pricing = () => {
                             <tr>
                                 <td>
                                     <Link to="#">
-                                        Monthly Reports and Analytics
+                                        Tích hợp bán hàng online (Ecommerce)
+                                    </Link>
+                                </td>
+                                <td className="item-none"><i className='bx bx-x'></i></td>
+                                <td className="item-none"><i className='bx bx-x'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Link to="#">
+                                        Tích hợp các loại Chat, Call...
+                                    </Link>
+                                </td>
+                                <td className="item-none"><i className='bx bx-x'></i></td>
+                                <td className="item-none"><i className='bx bx-x'></i></td>
+                                <td className="item-check"><i className='bx bx-check'></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Link to="#">
+                                        Phân tích và báo cáo tổng hợp
                                     </Link>
                                 </td>
                                 <td className="item-none"><i className='bx bx-x'></i></td>
@@ -130,18 +187,18 @@ const Pricing = () => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <Link to="#" className="select-btn">
-                                        Get it now
+                                    <Link to="/contact" className="select-btn">
+                                        Đăng ký
                                     </Link>
                                 </td>
                                 <td>
-                                    <Link to="#" className="select-btn">
-                                        Get it now
+                                    <Link to="/contact" className="select-btn">
+                                        Đăng ký
                                     </Link>
                                 </td>
                                 <td>
-                                    <Link to="#" className="select-btn">
-                                        Get it now
+                                    <Link to="/contact" className="select-btn">
+                                        Đăng ký
                                     </Link>
                                 </td>
                             </tr>

@@ -19,12 +19,9 @@ const Home = () => {
     <Layout>
       <Navbar />
       <Banner />
-      <OurSolutions />
-      <OurServices />
-      <OurFeatures />
-      <TeamMember />
-      <RecentProjects />
       <Pricing />
+      <OurServices />
+      <RecentProjects />
       <Testimonials />
       <Partner />
       <OurBlog />

@@ -11,18 +11,18 @@ const Banner = () => {
                     <div className="col-lg-6 col-md-12">
                         <div className="main-banner-content">
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <h1>Secure IT Solutions Services</h1>
+                                <h1>Thiết kế website chuyên nghiệp</h1>
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Với hơn 1000 mẫu giao diện cực đẹp, phù hợp cho website bán hàng, giới thiệu công ty, bất động sản, xe, du học, ...</p>
                             </ReactWOW>
 
                             <ReactWOW delay='.1s' animation='fadeInRight'>
                                 <div className="btn-box">
                                     <Link to="/contact" className="default-btn">
-                                        <i className="flaticon-right"></i> 
-                                        Get Started <span></span>
+                                        <i className="flaticon-right"></i>
+                                        Xem mẫu <span></span>
                                     </Link>
                                 </div>
                             </ReactWOW>

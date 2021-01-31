@@ -5,8 +5,6 @@ const BlogSidebar = () => {
     return (
         <div className="widget-area">
             <div className="widget widget_search">
-                <h3 className="widget-title">Search</h3>
-
                 <form className="search-form">
                     <label>
                         <span className="screen-reader-text">Search for:</span>
@@ -19,7 +17,7 @@ const BlogSidebar = () => {
             </div>
 
             <div className="widget widget_tracer_posts_thumb">
-                <h3 className="widget-title">Popular Posts</h3>
+                <h3 className="widget-title">Nổi bật</h3>
 
                 <article className="item">
                     <Link to="#" className="thumb">
@@ -71,7 +69,7 @@ const BlogSidebar = () => {
             </div>
 
             <div className="widget widget_categories">
-                <h3 className="widget-title">Categories</h3>
+                <h3 className="widget-title">Danh mục</h3>
 
                 <ul>
                     <li>
@@ -103,7 +101,7 @@ const BlogSidebar = () => {
             </div>
 
             <div className="widget widget_tag_cloud">
-                <h3 className="widget-title">Popular Tags</h3>
+                <h3 className="widget-title">Tags</h3>
 
                 <div className="tagcloud">
                     <Link to="#">

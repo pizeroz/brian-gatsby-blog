@@ -9,6 +9,20 @@ module.exports = [
   'gatsby-plugin-sitemap',
   'gatsby-plugin-robots-txt',
   {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      name: 'Brian Lee',
+      short_name: 'Brian Lee',
+      start_url: '/',
+      background_color: '#304CFD',
+      theme_color: '#304CFD',
+      display: 'standalone',
+      icon: 'src/assets/images/icon.png', // This path is relative to the root of the site.
+      legacy: true, // this will add apple-touch-icon links to <head>. Required for
+      // versions prior to iOS 11.3.
+    },
+  },
+  {
     resolve: 'gatsby-plugin-html-attributes',
     options: {
       lang: 'zxx'
@@ -57,17 +71,12 @@ module.exports = [
     },
   },
   {
-    resolve: 'gatsby-plugin-manifest',
+    resolve: `gatsby-plugin-google-analytics`,
     options: {
-      name: 'Brian Lee',
-      short_name: 'Brian Lee',
-      start_url: '/',
-      background_color: '#304CFD',
-      theme_color: '#304CFD',
-      display: 'standalone',
-      icon: 'src/assets/images/logo.png', // This path is relative to the root of the site.
-      legacy: true, // this will add apple-touch-icon links to <head>. Required for
-      // versions prior to iOS 11.3.
+      // The property ID; the tracking code won't be generated without it
+      trackingId: "UA-187292786-1",
+      // Defines where to place the tracking script - `true` in the head and `false` in the body
+      head: false,
     },
   },
 ];

@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react"
 import Layout from "../components/App/Layout"
 import Navbar from "../components/App/Navbar"
 import PageBanner from '../components/Common/PageBanner'
 import Footer from "../components/App/Footer"
 import BlogCard from '../components/BlogContent/BlogCard'
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { Link, graphql } from "gatsby"
 
-const Blog = ({ data }) => {
+const BlogCategoryTemplate = ({ data }) => {
+    debugger;
     return (
         <Layout>
             <Navbar />
@@ -36,20 +36,13 @@ const Blog = ({ data }) => {
     );
 }
 
-Blog.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-    }).isRequired,
-  }).isRequired,
-};
-
 export const query = graphql`
-  {
+  query($category: String) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fileAbsolutePath: { regex: "/index.md$/" } }
+      filter: { frontmatter: { categories: {in: [$category]} } }
     ) {
+      totalCount
       edges {
         node {
           frontmatter {
@@ -84,6 +77,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default Blog;
+export default BlogCategoryTemplate;
