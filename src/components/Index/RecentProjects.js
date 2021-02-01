@@ -17,7 +17,7 @@ const RecentProjects = () => {
                         <img src={starIcon} alt="project" /> Dự án
                     </span>
                     <h2>Dự án nổi bật</h2>
-                    <p>Khách hàng đánh giá cao chất lượng sản phẩm và dịch vụ của IT Site.</p>
+                    <p>Khách hàng đánh giá cao chất lượng sản phẩm và dịch vụ của ITsite.</p>
                 </div>
 
                 <div className="row">

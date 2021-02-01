@@ -145,7 +145,7 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link
-                                            to="/contact-us"
+                                            to="/lien-he"
                                             activeClassName="active"
                                             className="nav-link"
                                         >
@@ -166,7 +166,7 @@ const Navbar = () => {
 
                                     <div className="option-item">
                                         <Link
-                                            to="/contact"
+                                            to="/lien-he"
                                             activeClassName="active"
                                             onClick={() => setCollapsed(true)}
                                             className="default-btn"

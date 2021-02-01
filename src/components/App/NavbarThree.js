@@ -32,21 +32,21 @@ const NavbarThree = () => {
                 <div className="tarn-nav">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg navbar-light">
-                            <Link 
+                            <Link
                                 to="/"
-                                onClick={() => setCollapsed(true)} 
+                                onClick={() => setCollapsed(true)}
                                 className="navbar-brand"
                             >
                                 <img src={logo} alt="logo" />
                             </Link>
 
-                            <button 
-                                onClick={toggleNavbar} 
+                            <button
+                                onClick={toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar top-bar"></span>
@@ -57,10 +57,10 @@ const NavbarThree = () => {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link 
-                                            to="/" 
+                                        <Link
+                                            to="/"
                                             activeClassName="active"
-                                            onClick={e => e.preventDefault()} 
+                                            onClick={e => e.preventDefault()}
                                             className="nav-link"
                                         >
                                             Home <i className='bx bx-chevron-down'></i>
@@ -68,8 +68,8 @@ const NavbarThree = () => {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/" 
+                                                <Link
+                                                    to="/"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -79,8 +79,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/seo-agency" 
+                                                <Link
+                                                    to="/seo-agency"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -90,8 +90,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/data-science-ml-company" 
+                                                <Link
+                                                    to="/data-science-ml-company"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -101,8 +101,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/data-analytics-ai-startup" 
+                                                <Link
+                                                    to="/data-analytics-ai-startup"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -112,8 +112,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/digital-marketing-agency" 
+                                                <Link
+                                                    to="/digital-marketing-agency"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -123,8 +123,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/data-science-online-courses" 
+                                                <Link
+                                                    to="/data-science-online-courses"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -134,8 +134,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/big-data-analysis-startup" 
+                                                <Link
+                                                    to="/big-data-analysis-startup"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -145,8 +145,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/data-analytics-ml-consulting" 
+                                                <Link
+                                                    to="/data-analytics-ml-consulting"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -156,8 +156,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/machine-learning-ai-solutions" 
+                                                <Link
+                                                    to="/machine-learning-ai-solutions"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -169,19 +169,19 @@ const NavbarThree = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link 
-                                            to="#" 
+                                        <Link
+                                            to="#"
                                             activeClassName="active"
                                             onClick={e => e.preventDefault()}
                                             className="nav-link"
                                         >
                                             About Us <i className='bx bx-chevron-down'></i>
                                         </Link>
-                                        
+
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/about-us" 
+                                                <Link
+                                                    to="/about-us"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -191,8 +191,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/history" 
+                                                <Link
+                                                    to="/history"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -202,8 +202,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/testimonials" 
+                                                <Link
+                                                    to="/testimonials"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -213,8 +213,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/team" 
+                                                <Link
+                                                    to="/team"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -226,19 +226,19 @@ const NavbarThree = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link 
-                                            to="#" 
+                                        <Link
+                                            to="#"
                                             activeClassName="active"
                                             onClick={e => e.preventDefault()}
                                             className="nav-link"
                                         >
                                             Services <i className='bx bx-chevron-down'></i>
                                         </Link>
-                                        
+
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/services" 
+                                                <Link
+                                                    to="/services"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -248,8 +248,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/service-details" 
+                                                <Link
+                                                    to="/service-details"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -261,20 +261,20 @@ const NavbarThree = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link 
-                                            to="#" 
+                                        <Link
+                                            to="#"
                                             activeClassName="active"
                                             onClick={e => e.preventDefault()}
                                             className="nav-link"
                                         >
                                             Case Studies <i className='bx bx-chevron-down'></i>
-                                                
+
                                         </Link>
-                                        
+
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/case-studies" 
+                                                <Link
+                                                    to="/case-studies"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -284,8 +284,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/case-studies-details" 
+                                                <Link
+                                                    to="/case-studies-details"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -297,8 +297,8 @@ const NavbarThree = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link 
-                                            to="#" 
+                                        <Link
+                                            to="#"
                                             activeClassName="active"
                                             onClick={e => e.preventDefault()}
                                             className="nav-link"
@@ -308,8 +308,8 @@ const NavbarThree = () => {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="#" 
+                                                <Link
+                                                    to="#"
                                                     activeClassName="active"
                                                     onClick={e => e.preventDefault()}
                                                     className="nav-link"
@@ -319,8 +319,8 @@ const NavbarThree = () => {
 
                                                 <ul className="dropdown-menu">
                                                     <li className="nav-item">
-                                                        <Link 
-                                                            to="/courses" 
+                                                        <Link
+                                                            to="/courses"
                                                             activeClassName="active"
                                                             onClick={() => setCollapsed(true)}
                                                             className="nav-link"
@@ -330,8 +330,8 @@ const NavbarThree = () => {
                                                     </li>
 
                                                     <li className="nav-item">
-                                                        <Link 
-                                                            to="/course-details" 
+                                                        <Link
+                                                            to="/course-details"
                                                             activeClassName="active"
                                                             onClick={() => setCollapsed(true)}
                                                             className="nav-link"
@@ -343,8 +343,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="#" 
+                                                <Link
+                                                    to="#"
                                                     activeClassName="active"
                                                     onClick={e => e.preventDefault()}
                                                     className="nav-link"
@@ -354,8 +354,8 @@ const NavbarThree = () => {
 
                                                 <ul className="dropdown-menu">
                                                     <li className="nav-item">
-                                                        <Link 
-                                                            to="/events" 
+                                                        <Link
+                                                            to="/events"
                                                             activeClassName="active"
                                                             onClick={() => setCollapsed(true)}
                                                             className="nav-link"
@@ -365,8 +365,8 @@ const NavbarThree = () => {
                                                     </li>
 
                                                     <li className="nav-item">
-                                                        <Link 
-                                                            to="/event-details" 
+                                                        <Link
+                                                            to="/event-details"
                                                             activeClassName="active"
                                                             onClick={() => setCollapsed(true)}
                                                             className="nav-link"
@@ -378,8 +378,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/contact" 
+                                                <Link
+                                                    to="/lien-he"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -389,8 +389,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/gallery" 
+                                                <Link
+                                                    to="/gallery"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -400,8 +400,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/faq" 
+                                                <Link
+                                                    to="/faq"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -411,8 +411,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/coming-soon" 
+                                                <Link
+                                                    to="/coming-soon"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -422,8 +422,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/membership-levels" 
+                                                <Link
+                                                    to="/membership-levels"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -433,8 +433,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/profile-authentication" 
+                                                <Link
+                                                    to="/profile-authentication"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -444,8 +444,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/privacy-policy" 
+                                                <Link
+                                                    to="/privacy-policy"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -455,8 +455,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/terms-of-service" 
+                                                <Link
+                                                    to="/terms-of-service"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -468,8 +468,8 @@ const NavbarThree = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link 
-                                            to="#" 
+                                        <Link
+                                            to="#"
                                             activeClassName="active"
                                             onClick={e => e.preventDefault()}
                                             className="nav-link"
@@ -479,8 +479,8 @@ const NavbarThree = () => {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/blog" 
+                                                <Link
+                                                    to="/blog"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -490,8 +490,8 @@ const NavbarThree = () => {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    to="/blog-details" 
+                                                <Link
+                                                    to="/blog-details"
                                                     activeClassName="active"
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
@@ -502,7 +502,7 @@ const NavbarThree = () => {
                                         </ul>
                                     </li>
                                 </ul>
-                            
+
                                 <div className="others-option d-flex align-items-center">
                                     <div className="option-item">
                                         <form className="search-box">

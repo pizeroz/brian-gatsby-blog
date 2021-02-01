@@ -13,8 +13,8 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <i className='bx bx-map'></i>
                             </div>
-                            <h3>Our Address</h3>
-                            <p>175 5th Ave, New York, NY 10010, United States</p>
+                            <h3>Địa chỉ</h3>
+                            <p>Toà nhà Peakview, 36 Hoàng Cầu, Đống Đa, Hà Nội</p>
                         </div>
                     </div>
 
@@ -26,9 +26,9 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <i className='bx bx-phone-call'></i>
                             </div>
-                            <h3>Contact</h3>
-                            <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
-                            <p>E-mail: <a href="mailto:hello@rewy.com">hello@rewy.com</a></p>
+                            <h3>Hỗ trợ</h3>
+                            <p>Mobile: <a href="tel:+84986801501">(+84) 986801801</a></p>
+                            <p>E-mail: <a href="mailto:hotro.itsite@gmail.com">hotro.itsite@gmail.com</a></p>
                         </div>
                     </div>
 
@@ -40,9 +40,9 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <i className='bx bx-time-five'></i>
                             </div>
-                            <h3>Hours of Operation</h3>
-                            <p>Monday - Friday: 09:00 - 20:00</p>
-                            <p>Sunday & Saturday: 10:30 - 22:00</p>
+                            <h3>Giờ làm việc</h3>
+                            <p>Thứ 2 - Thứ 6: 09:00 - 20:00</p>
+                            <p>Thứ 7 & Chủ nhật: 10:30 - 22:00</p>
                         </div>
                     </div>
                 </div>

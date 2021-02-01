@@ -11,10 +11,10 @@ const TermsOfService = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Terms of Service" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Terms of Service" 
+                pageTitle="Terms of Service"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Terms of Service"
             />
             <section className="terms-of-service-area ptb-100">
                 <div className="container">
@@ -60,7 +60,7 @@ const TermsOfService = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">
+                                            <Link to="/lien-he">
                                                 Contact Us
                                             </Link>
                                         </li>

@@ -3,20 +3,23 @@ import Layout from "../components/App/Layout"
 import Navbar from "../components/App/Navbar"
 import PageBanner from '../components/Common/PageBanner'
 import Footer from "../components/App/Footer"
-
-const BlogDetails = () => {
+import ContactInfo from '../components/Contact/ContactInfo'
+import ContactForm from '../components/Contact/ContactForm'
+const Contact = () => {
     return (
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Blog Details"
+                pageTitle="Liên hệ"
                 homePageText="Home"
                 homePageUrl="/"
-                activePageText="Blog Details"
+                activePageText="Liên hệ"
             />
+            <ContactInfo />
+            <ContactForm />
             <Footer />
         </Layout>
-    )
+    );
 }
 
-export default BlogDetails;
+export default Contact

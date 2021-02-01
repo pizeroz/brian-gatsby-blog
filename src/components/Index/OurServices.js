@@ -24,7 +24,7 @@ const OurServices = () => {
                                     </span>
 
                                     <h2>Giải pháp máy chủ đám mây</h2>
-                                    <p>IT Site cung cấp các giải pháp sử dụng dịch vụ & tối ưu website trên nền tảng đám mây.</p>
+                                    <p>ITsite cung cấp các giải pháp sử dụng dịch vụ & tối ưu website trên nền tảng đám mây.</p>
                                     <ul className="about-list mb-0">
                                         <li>
                                             <i className="flaticon-tick"></i>

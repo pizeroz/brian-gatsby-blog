@@ -11,10 +11,10 @@ const PrivacyPolicy = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Privacy Policy" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Privacy Policy" 
+                pageTitle="Privacy Policy"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Privacy Policy"
             />
             <section className="privacy-policy-area ptb-100">
                 <div className="container">
@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">
+                                            <Link to="/lien-he">
                                                 Contact Us
                                             </Link>
                                         </li>

@@ -20,7 +20,7 @@ const Banner = () => {
 
                             <ReactWOW delay='.1s' animation='fadeInRight'>
                                 <div className="btn-box">
-                                    <Link to="/contact" className="default-btn">
+                                    <Link to="/lien-he" className="default-btn">
                                         <i className="flaticon-right"></i>
                                         Xem mẫu <span></span>
                                     </Link>

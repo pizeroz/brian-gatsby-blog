@@ -35,10 +35,10 @@ const Gallery = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Gallery" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Gallery" 
+                pageTitle="Kho giao diện"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Kho giao diện"
             />
 
             <div className="gallery-area pt-100 pb-70">
@@ -46,11 +46,11 @@ const Gallery = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(0);}
                                     }
                                 >
@@ -61,11 +61,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(1);}
                                     }
                                 >
@@ -76,11 +76,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(2);}
                                     }
                                 >
@@ -91,11 +91,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(3);}
                                     }
                                 >
@@ -106,11 +106,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(4);}
                                     }
                                 >
@@ -121,11 +121,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(5);}
                                     }
                                 >
@@ -136,11 +136,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(6);}
                                     }
                                 >
@@ -151,11 +151,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(7);}
                                     }
                                 >
@@ -166,11 +166,11 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
                                     onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
+                                        e.preventDefault();
+                                        setIsOpenImage(true);
                                         setPhotoIndex(8);}
                                     }
                                 >
@@ -197,7 +197,7 @@ const Gallery = () => {
                     />
                 )}
             </div>
-            
+
             <Footer />
         </Layout>
     );

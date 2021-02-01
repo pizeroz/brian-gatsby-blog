@@ -12199,3 +12199,8 @@ Go Top CSS
           transform: translateY(-5px);
 }
 /*# sourceMappingURL=style.css.map */
+
+/*Custome CSS*/
+.navbar-brand img, .logo img {
+    height: 65px !important;
+}

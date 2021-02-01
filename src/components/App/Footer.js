@@ -50,16 +50,16 @@ const Footer = () => {
                             <ul className="footer-links-list">
                                 <li>
                                     <Link to="/">
-                                        Home
+                                        Trang chủ
                                     </Link>
                                 </li>
                                     <li>
-                                    <Link to="/about-us">
-                                        Về chúng tôi
+                                    <Link to="/gioi-thieu">
+                                        Giới thiệu
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">
+                                    <Link to="/lien-he">
                                         Liên hệ
                                     </Link>
                                 </li>
@@ -78,23 +78,23 @@ const Footer = () => {
 
                             <ul className="footer-links-list">
                                 <li>
-                                    <Link to="/team">
-                                        Thiết kế web
+                                    <Link to="/bang-gia">
+                                        Bảng giá
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/services">
+                                    <Link to="/giao-dien">
                                         Kho giao diện
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/testimonials">
-                                        Dịch vụ
+                                    <Link to="/phan-hoi">
+                                        Phản hồi
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/services">
-                                        Tối ưu website
+                                    <Link to="/faq">
+                                        Câu hỏi thường gặp
                                     </Link>
                                 </li>
                             </ul>
@@ -126,7 +126,7 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright @{currentYear} <strong><a target="_blank" href="https://itsite.me/" rel="noreferrer">IT Site</a></strong> All rights reserved.</p>
+                            <p>Copyright @{currentYear} <strong><a target="_blank" href="https://itsite.me/" rel="noreferrer">ITsite</a></strong> All rights reserved.</p>
                         </div>
 
                         <div className="col-lg-6 col-md-6">

@@ -44,17 +44,17 @@ const Testimonials = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="testimonial" /> 
-                        Testimonials
+                        <img src={starIcon} alt="testimonial" />
+                        Phản hồi
                     </span>
-                    <h2>What Our Clients are Saying?</h2>
+                    <h2>Khách hàng nói gì về ITsite?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                 </div>
 
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="testimonials-slides owl-carousel owl-theme"
                     {...options}
-                > 
+                >
                     <div className="single-testimonials-item">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
 
@@ -99,7 +99,7 @@ const Testimonials = () => {
 
                 <div className="testimonials-view-btn text-center">
                     <Link to="/testimonials" className="default-btn">
-                        <i className="flaticon-view"></i> 
+                        <i className="flaticon-view"></i>
                         Check Out All Reviews <span></span>
                     </Link>
                 </div>

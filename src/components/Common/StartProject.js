@@ -20,9 +20,9 @@ const StartProject = () => {
                             <h2>We Like to Start Your Project With Us</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
-                            <Link to="/contact" className="default-btn">
-                                <i className="flaticon-web"></i> 
-                                Get Started 
+                            <Link to="/lien-he" className="default-btn">
+                                <i className="flaticon-web"></i>
+                                Bắt đầu
                                 <span></span>
                             </Link>
                         </div>

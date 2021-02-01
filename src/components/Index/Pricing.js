@@ -12,7 +12,7 @@ const Pricing = () => {
                         Bảng giá
                     </span>
                     <h2>Bảng giá Website</h2>
-                    <p>Lựa chọn gói thiết kế phù hợp với nhu cầu của bạn và liên hệ ngay với IT Site.</p>
+                    <p>Lựa chọn gói thiết kế phù hợp với nhu cầu của bạn và liên hệ ngay với ITsite.</p>
                 </div>
 
                 <div className="membership-levels-table table-responsive">
@@ -187,17 +187,17 @@ const Pricing = () => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <Link to="/contact" className="select-btn">
+                                    <Link to="/lien-he" className="select-btn">
                                         Đăng ký
                                     </Link>
                                 </td>
                                 <td>
-                                    <Link to="/contact" className="select-btn">
+                                    <Link to="/lien-he" className="select-btn">
                                         Đăng ký
                                     </Link>
                                 </td>
                                 <td>
-                                    <Link to="/contact" className="select-btn">
+                                    <Link to="/lien-he" className="select-btn">
                                         Đăng ký
                                     </Link>
                                 </td>
