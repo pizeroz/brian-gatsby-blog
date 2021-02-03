@@ -14,8 +14,8 @@ const OurBlog = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="blog" /> 
-                        Our Blog
+                        <img src={starIcon} alt="blog" />
+                        Blog
                     </span>
                     <h2>Latest Valuable Insights</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>

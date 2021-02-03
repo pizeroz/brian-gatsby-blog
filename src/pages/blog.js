@@ -17,7 +17,7 @@ const Blog = ({ data }) => {
                 homePageUrl="/"
                 activePageText="Blog"
             />
-            <div className="blog-area ptb-100">
+            <div className="blog-area ptb-20">
                 <div className="container">
                     <div className="row">
                         {

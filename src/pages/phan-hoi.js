@@ -11,13 +11,12 @@ const Testimonials = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Testimonials" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Testimonials" 
+                pageTitle="Feedback"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Feedback"
             />
             <TestimonialsStyleOne />
-            <TestimonialsStyleTwo />
             <Footer />
         </Layout>
     );

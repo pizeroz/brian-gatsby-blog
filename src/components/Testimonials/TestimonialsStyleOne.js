@@ -3,6 +3,7 @@ import starIcon from '../../assets/images/star-icon.png'
 import client1 from '../../assets/images/testimonials/client1.jpg'
 import client2 from '../../assets/images/testimonials/client2.jpg'
 import client3 from '../../assets/images/testimonials/client3.jpg'
+import client4 from '../../assets/images/testimonials/client4.jpg'
 
 const TestimonialsStyleOne = () => {
     return (
@@ -10,23 +11,23 @@ const TestimonialsStyleOne = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="about" /> 
-                        Testimonials
+                        <img src={starIcon} alt="about" />
+                        Phản hồi
                     </span>
-                    <h2>What Our Clients are Saying?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Phản hồi của khách hàng</h2>
+                    <p>Khách hàng đánh giá cao chất lượng sản phẩm và dịch vụ của ITsite.</p>
                 </div>
 
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div className="single-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>Là khách hàng của ITsite, chúng tôi thực sự hài lòng về các bạn. Sử dụng dịch vụ web của ITsite chúng tôi được hỗ trợ rất tốt và càng ngày càng tiếp cận được nhiều khách hàng hơn.</p>
                             <div className="client-info">
                                 <div className="d-flex justify-content-center align-items-center">
                                     <img src={client1} alt="about" />
                                     <div className="title">
-                                        <h3>Alex Maxwell</h3>
-                                        <span>CEO at EnvyTheme</span>
+                                        <h3>Lê Thành Vinh</h3>
+                                        <span>Stech Saigon</span>
                                     </div>
                                 </div>
                             </div>
@@ -35,13 +36,13 @@ const TestimonialsStyleOne = () => {
 
                     <div className="col-lg-6 col-md-6">
                         <div className="single-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>Tư vấn viên cũng như đội ngũ Chăm sóc khách hàng của ITsite rất nhiệt tình giải đáp các thắc mắc của khách hàng và hỗ trợ ngay cả khi website đã hoàn thiện. Giao diện thân thiện và dễ sử dụng.</p>
                             <div className="client-info">
                                 <div className="d-flex justify-content-center align-items-center">
                                     <img src={client2} alt="about" />
                                     <div className="title">
-                                        <h3>David Warner</h3>
-                                        <span>CEO at Envato</span>
+                                        <h3>Tạ Quang Đạt</h3>
+                                        <span>MTF Vietnam</span>
                                     </div>
                                 </div>
                             </div>
@@ -50,13 +51,13 @@ const TestimonialsStyleOne = () => {
 
                     <div className="col-lg-6 col-md-6">
                         <div className="single-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>Là khách hàng đang sử dụng dịch vụ của ITsite, tôi hoàn toàn yên tâm và tin tưởng đội ngũ kỹ thuật, chăm sóc khách hàng luôn hỗ trợ khách hàng nhiệt tình. Chúc cho ITsite phát triển thành công hơn nữa trong thời gian tới.</p>
                             <div className="client-info">
                                 <div className="d-flex justify-content-center align-items-center">
                                     <img src={client3} alt="about" />
                                     <div className="title">
-                                        <h3>Sarah Taylor</h3>
-                                        <span>CEO at ThemeForest</span>
+                                        <h3>Hà Thu</h3>
+                                        <span>Himawari Group</span>
                                     </div>
                                 </div>
                             </div>
@@ -65,13 +66,13 @@ const TestimonialsStyleOne = () => {
 
                     <div className="col-lg-6 col-md-6">
                         <div className="single-testimonials-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>Tôi ấn tượng với dịch vụ chuyên nghiệp của ITsite, thời gian bàn giao đúng như cam kết cùng với chất lượng website đúng yêu cầu. Khách hàng của tôi rất thích giao diện trên di động.</p>
                             <div className="client-info">
                                 <div className="d-flex justify-content-center align-items-center">
-                                    <img src={client1} alt="about" />
+                                    <img src={client4} alt="about" />
                                     <div className="title">
-                                        <h3>Alex Maxwell</h3>
-                                        <span>CEO at EnvyTheme</span>
+                                        <h3>Huệ Lee</h3>
+                                        <span>Laksmira Diosamore</span>
                                     </div>
                                 </div>
                             </div>

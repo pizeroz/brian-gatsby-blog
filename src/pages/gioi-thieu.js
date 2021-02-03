@@ -10,16 +10,16 @@ import HowItWork from '../components/AboutUs/HowItWork'
 import TeamMembers from '../components/AboutUs/TeamMembers'
 import Testimonials from '../components/AboutUs/Testimonials'
 import Partner from '../components/AboutUs/Partner'
- 
+
 const AboutUs = () => {
     return (
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="About Us" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="About Us" 
+                pageTitle="Giới thiệu"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Giới thiệu"
             />
             <AboutUsContent />
             <OurHistory />

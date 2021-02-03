@@ -21,7 +21,7 @@ const ProjectStartArea = () => {
 
                             <Link to="/lien-he" className="default-btn">
                                 <i className="flaticon-web"></i>
-                                Bắt đầu
+                                Liên hệ
                                 <span></span>
                             </Link>
                         </div>

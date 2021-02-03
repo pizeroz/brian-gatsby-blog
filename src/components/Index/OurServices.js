@@ -40,7 +40,7 @@ const OurServices = () => {
                                         </li>
                                         <li>
                                             <i className="flaticon-tick"></i>
-                                            Forex Trading
+                                            Global Domain
                                         </li>
                                         <li>
                                             <i className="flaticon-tick"></i>
@@ -78,8 +78,8 @@ const OurServices = () => {
                                         <img src={starIcon} alt="icon" /> Dịch vụ
                                     </span>
 
-                                    <h2>Thiết kế & phát triển</h2>
-                                    <p>Cung cấp các giải pháp thiết kế & phát triển website chuẩn SEO, phù hợp xu hướng mới nhất trên thị trường.</p>
+                                    <h2>Dịch vụ thiết kế website</h2>
+                                    <p>Cung cấp các giải pháp thiết kế website chuẩn SEO, chuẩn mobile, phù hợp xu hướng mới nhất trên thị trường.</p>
 
                                     <ul className="our-mission-list mb-0">
                                         <li>

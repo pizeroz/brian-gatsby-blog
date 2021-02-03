@@ -15,8 +15,8 @@ const BlogTemplate = ({ pageContext }) => {
       <Navbar />
       <PostBanner
         pageTitle={frontmatter.title}
-        homePageText="Home"
-        homePageUrl="/"
+        homePageText="Blog"
+        homePageUrl="/blog"
         activePageText={frontmatter.title}
       />
       <BlogDetailsContent data={pageContext} />

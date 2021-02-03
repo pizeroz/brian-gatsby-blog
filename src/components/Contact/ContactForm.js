@@ -1,7 +1,7 @@
 import React from 'react'
 import starIcon from '../../assets/images/star-icon.png'
 import contact from '../../assets/images/contact.png'
-const config = require('../../../config');
+const config = require('../../../config')
 
 const ContactForm = () => {
     return (

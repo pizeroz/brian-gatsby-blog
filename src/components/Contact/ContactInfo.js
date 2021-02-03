@@ -1,4 +1,5 @@
 import React from 'react'
+const config = require('../../../config')
 
 const ContactInfo = () => {
     return (
@@ -14,7 +15,7 @@ const ContactInfo = () => {
                                 <i className='bx bx-map'></i>
                             </div>
                             <h3>Địa chỉ</h3>
-                            <p>Toà nhà Peakview, 36 Hoàng Cầu, Đống Đa, Hà Nội</p>
+                            <p>{config.address}, {config.city}</p>
                         </div>
                     </div>
 
@@ -27,8 +28,8 @@ const ContactInfo = () => {
                                 <i className='bx bx-phone-call'></i>
                             </div>
                             <h3>Hỗ trợ</h3>
-                            <p>Mobile: <a href="tel:+84986801501">(+84) 986801801</a></p>
-                            <p>E-mail: <a href="mailto:hotro.itsite@gmail.com">hotro.itsite@gmail.com</a></p>
+                            <p>Mobile: <a href={"tel:" + config.phone}>{config.phoneDisplay}</a></p>
+                            <p>E-mail: <a href={"mailto:" + config.email}>{config.email}</a></p>
                         </div>
                     </div>
 

@@ -26,18 +26,18 @@ const RecentProjects = () => {
                             <div className="image">
                                 <img src={project1} alt="project" />
 
-                                <Link className="link-btn" to="/case-studies-details">
+                                <Link className="link-btn" to="http://himawarigroup.com.vn">
                                     <i className='bx bx-plus'></i>
                                 </Link>
                             </div>
 
                             <div className="content">
                                 <h3>
-                                    <Link to="/case-studies-details">
-                                        Movie Recommendation
+                                    <Link to="http://himawarigroup.com.vn">
+                                        Himawari Group
                                     </Link>
                                 </h3>
-                                <span>System Project</span>
+                                <span>Tư vấn du học</span>
                             </div>
                         </div>
                     </div>
@@ -47,18 +47,18 @@ const RecentProjects = () => {
                             <div className="image">
                                 <img src={project2} alt="project" />
 
-                                <Link className="link-btn" to="/case-studies-details">
+                                <Link className="link-btn" to="http://stechsaigon.com">
                                     <i className='bx bx-plus'></i>
                                 </Link>
                             </div>
 
                             <div className="content">
                                 <h3>
-                                    <Link to="/case-studies-details">
-                                        Customer Segmentation
+                                    <Link to="http://stechsaigon.com">
+                                        Stech Saigon
                                     </Link>
                                 </h3>
-                                <span>Machine Learning</span>
+                                <span>Thiết bị y tế</span>
                             </div>
                         </div>
                     </div>
@@ -68,18 +68,18 @@ const RecentProjects = () => {
                             <div className="image">
                                 <img src={project3} alt="project" />
 
-                                <Link className="link-btn" to="/case-studies-details">
+                                <Link className="link-btn" to="https://xaydungmtfvietnam.com">
                                     <i className='bx bx-plus'></i>
                                 </Link>
                             </div>
 
                             <div className="content">
                                 <h3>
-                                    <Link to="/case-studies-details">
-                                        Data Analysis
+                                    <Link to="https://xaydungmtfvietnam.com">
+                                        MTF Vietnam
                                     </Link>
                                 </h3>
-                                <span>Web Project</span>
+                                <span>Tư vấn thiết kế & xây dựng</span>
                             </div>
                         </div>
                     </div>
@@ -89,18 +89,18 @@ const RecentProjects = () => {
                             <div className="image">
                                 <img src={project4} alt="project" />
 
-                                <Link className="link-btn" to="/case-studies-details">
+                                <Link className="link-btn" to="https://laksmiravn.com">
                                     <i className='bx bx-plus'></i>
                                 </Link>
                             </div>
 
                             <div className="content">
                                 <h3>
-                                    <Link to="/case-studies-details">
-                                        Detection Project
+                                    <Link to="https://laksmiravn.com">
+                                        Laksmira Diosamore
                                     </Link>
                                 </h3>
-                                <span>Programming</span>
+                                <span>Thương mại điện tử</span>
                             </div>
                         </div>
                     </div>
@@ -110,18 +110,18 @@ const RecentProjects = () => {
                             <div className="image">
                                 <img src={project5} alt="project" />
 
-                                <Link className="link-btn" to="/case-studies-details">
+                                <Link className="link-btn" to="https://laodongnhatban.com.vn">
                                     <i className='bx bx-plus'></i>
                                 </Link>
                             </div>
 
                             <div className="content">
                                 <h3>
-                                    <Link to="/case-studies-details">
-                                        Data Scientist
+                                    <Link to="https://laodongnhatban.com.vn">
+                                        Lao động Nhật Bản
                                     </Link>
                                 </h3>
-                                <span>Data Science</span>
+                                <span>Tư vấn xuất khẩu lao động</span>
                             </div>
                         </div>
                     </div>
@@ -131,18 +131,18 @@ const RecentProjects = () => {
                             <div className="image">
                                 <img src={project6} alt="project" />
 
-                                <Link className="link-btn" to="/case-studies-details">
+                                <Link className="link-btn" to="https://hrc.com.vn">
                                     <i className='bx bx-plus'></i>
                                 </Link>
                             </div>
 
                             <div className="content">
                                 <h3>
-                                    <Link to="/case-studies-details">
-                                        Benefits Research
+                                    <Link to="https://hrc.com.vn">
+                                        HRC Vietnam
                                     </Link>
                                 </h3>
-                                <span>Science Projects</span>
+                                <span>Tuyển dụng</span>
                             </div>
                         </div>
                     </div>

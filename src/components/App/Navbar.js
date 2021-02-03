@@ -142,16 +142,6 @@ const Navbar = () => {
                                             </li>
                                         </ul>
                                     </li>
-
-                                    <li className="nav-item">
-                                        <Link
-                                            to="/lien-he"
-                                            activeClassName="active"
-                                            className="nav-link"
-                                        >
-                                            Liên hệ
-                                        </Link>
-                                    </li>
                                 </ul>
 
                                 <div className="others-option d-flex align-items-center">
@@ -171,7 +161,7 @@ const Navbar = () => {
                                             onClick={() => setCollapsed(true)}
                                             className="default-btn"
                                         >
-                                            <i className="flaticon-right"></i> Đăng ký <span></span>
+                                            <i className="flaticon-right"></i> Liên hệ <span></span>
                                         </Link>
                                     </div>
                                 </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'gatsby'
 import logo from "../../assets/images/logo.png"
 import footerMap from "../../assets/images/footer-map.png"
+const config = require('../../../config')
 
 const Footer = () => {
 
@@ -103,20 +104,20 @@ const Footer = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Liên hệ</h3>
+                            <h3>Địa chỉ</h3>
 
                             <ul className="footer-contact-info">
                                 <li>
                                     <i className='bx bx-map'></i>
-                                    Toà nhà Peakview, 36 Hoàng Cầu, Đống Đa, <br /> Hà Nội
+                                    {config.address}, <br /> {config.city}
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i>
-                                    <a href="tel:+84986801501">+84 986 801 801</a>
+                                    <a href={'tel:' + config.phone}>{config.phoneDisplay}</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-envelope'></i>
-                                    <a href="mailto:hotro.itsite@gmail.com">hotro.itsite@gmail.com</a>
+                                    <a href={'mailto:' + config.email}>{config.email}</a>
                                 </li>
                             </ul>
                         </div>
@@ -126,7 +127,7 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright @{currentYear} <strong><a target="_blank" href="https://itsite.me/" rel="noreferrer">ITsite</a></strong> All rights reserved.</p>
+                            <p>Copyright @{currentYear} <strong><a target="_blank" href={config.siteUrl} rel="noreferrer">ITsite</a></strong> All rights reserved.</p>
                         </div>
 
                         <div className="col-lg-6 col-md-6">
