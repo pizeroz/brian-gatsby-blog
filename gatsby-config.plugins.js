@@ -79,4 +79,13 @@ module.exports = [
       head: false,
     },
   },
+  {
+    resolve: 'gatsby-plugin-crisp-chat',
+    options: {
+      websiteId: 'b472ad26-6f58-403a-9867-99c67e4d4bf7',
+      enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
+      defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
+      enableImprovedAccessibility: false // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
+    },
+  },
 ];
